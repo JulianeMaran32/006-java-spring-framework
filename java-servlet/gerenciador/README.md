@@ -62,10 +62,43 @@ ${...}
 ```
 > 
 > JSTL e EL devem ser usados em conjunto.  
-
-> CRUD: Create, Read/Retrieve, Update, Delete  
-
 > WAR: Web ARchive
+
+
+* CRUD
+
+> C = Create   
+> R = Read/Retrieve    
+> U = Update    
+> D = Delete      
+
+*** 
+
+
+> Na primeira parte do projeto foram criados diversos arquivos dentro do pacote *servlet*, ocorre que para separar os arquivos, elas foram removidas e incluídas no pacote *acao*.   
+
+* Diretório WEB-INF
+
+> O Tomcat "esconde" a pasta WEB-INF e não permite que alguma requisição tenha acesso, pois há arquivos como o web.xml e os nossos JARs dentro desse diretório.    
+
+<h3> Padrão MVC</h3>  
+
+> M = Model: são os modelos que encapsulam as regras de negócios.      
+> V = View: define a interface, por exemplo, os JSPs fazem parte desta camada.      
+> C = Controller: faz o controle central e as ações, que definem o fluxo da aplicação.      
+
+> MVC, trata-se de um padrão de arquitetura para organização e fácil manutenção das camadas, sendo que cada uma tem sua responsabilidade. Assim, podemos aproveitar as camadas Model e View em outras ações.
+> Para construir um MVC, também, utilizamos o *Design Pattern Command*.
+
+* Design Pattern Command: são comandos que seguem uma determinada nomenclatura.
+
+> A arquitetura MVC facilita a manutenção e evolução da aplicação.  
+> Os JSPs devem ficar "escondidos" na pasta WEB-INF, pois dependem da ação.  
+
+
+
+
+
 
 
 
