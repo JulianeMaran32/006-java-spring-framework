@@ -8,8 +8,8 @@ Projetos elaborados durante os estudos feitos na [Alura](https://www.alura.com.b
 |-------------------------------------|   
 |Curso                  | Projeto     |    
 |-----------------------|-------------|   
-|Java Servlet 1         | gerenciador |   
-|Java Servlet 2         | gerenciador |   
+|Java Servlet           | gerenciador |   
+|Spring Boot Rest       | payroll     |   
 |Maven                  | xxxxxxxxxxx |   
 |Java e JDBC            | xxxxxxxxxxx |   
 |Persistência com JPA   | xxxxxxxxxxx |   
@@ -22,4 +22,4 @@ Projetos elaborados durante os estudos feitos na [Alura](https://www.alura.com.b
 |Spring Boot e Teste    | xxxxxxxxxxx |   
 |-------------------------------------|   
 
-
+> Obs. Spring Boot Rest projeto payroll, foi feito com base no tutorial do Spring.io
